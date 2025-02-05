@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { fetchTasks, createTasks, updateTasks, deleteTasks } from "./task";
+import { fetchTasks, createTasks, updateTasks, deleteTasks } from "./task.js";
 import serverless from "serverless-http";
 
 const app = express();
